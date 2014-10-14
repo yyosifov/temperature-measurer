@@ -5,11 +5,11 @@ Sample Temperature Measurer event emitter, based on Johnny Five. It measures the
 
 # Setup #
 
-In order to run this small sample, you need to have an Arduino with one TMP36 temperature sensor wired on Analog pin 0 - A0. For step-by-step tutorial take a look at this: [https://learn.adafruit.com/tmp36-temperature-sensor/using-a-temp-sensor](https://learn.adafruit.com/tmp36-temperature-sensor/using-a-temp-sensor "Using a tmp36 temperature sensor")
+In order to run this small sample, you need to have an Arduino with one TMP36 temperature sensor wired on Analog Pin 0 - A0. For step-by-step tutorial take a look at this: [https://learn.adafruit.com/tmp36-temperature-sensor/using-a-temp-sensor](https://learn.adafruit.com/tmp36-temperature-sensor/using-a-temp-sensor "Using a tmp36 temperature sensor")
 
 # Run #
 
-In two simple steps:
+After you wire up the Arduino with your PC, just run the sample app:
 
 - ```npm install```
 - ```node app.js```
