@@ -24,9 +24,6 @@ function TemperatureMeasurer(pin, frequency) {
     });
   });
 
-  self.on('shutdown', function() {
-    console.log('shutting down temperature measurer.');
-  });
 };
 
 require('util').inherits(TemperatureMeasurer, EventEmitter);
