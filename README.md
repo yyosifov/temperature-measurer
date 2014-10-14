@@ -21,7 +21,8 @@ The Temperature Measurer inherits from Event Emitter and emits events when a new
 ```javascript
 var TemperatureMeasurer = require('./TemperatureMeasurer.js');
 
-// Start measuring the Temperature, using the values provided from PIN A0 and measure every 10 seconds (10000 milliseconds)
+// Start measuring the Temperature, using the values provided from PIN A0 
+// and perform measure every 10 seconds (10000 milliseconds)
 var temperatureMeasurer = new TemperatureMeasurer('A0', 10000);
 
 temperatureMeasurer.on('temperature.measured', function(value) {
